@@ -46,7 +46,7 @@
 <?php
 	$conn = mysqli_connect($host, $user, $password);
 	mysqli_select_db($conn, 'dbig');
-	$sql = "insert into userig values('$full_name', '$username', '$email', '$no_telp', '$password')";
+	$sql = "insert into userig values('$full_name', '$username', '$email', '$no_telp', '$pass')";
 	$hasil = mysqli_query($conn,$sql);
 ?>
 </body>

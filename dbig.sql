@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 23 Okt 2017 pada 16.03
+-- Generation Time: 23 Okt 2017 pada 16.23
 -- Versi Server: 10.1.19-MariaDB
 -- PHP Version: 5.5.38
 
@@ -31,7 +31,7 @@ CREATE TABLE `userig` (
   `username` varchar(25) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(35) COLLATE utf8_unicode_ci NOT NULL,
   `no_telp` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
-  `pass` text COLLATE utf8_unicode_ci NOT NULL
+  `pass` varchar(25) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -39,7 +39,10 @@ CREATE TABLE `userig` (
 --
 
 INSERT INTO `userig` (`full_name`, `username`, `email`, `no_telp`, `pass`) VALUES
-('wahyu', 'wahyuakmal78', 'wahyuakmal78@gmail.com', '081321123456', '');
+('wahyu', 'wahyuakmal78', 'wahyuakmal78@gmail.com', '081321123456', ''),
+('wahyu', 'wahyuakmal78', 'wahyuakmal78@gmail.com', '081321123456', ''),
+('wahyu', 'wahyuakmal78', 'wahyuakmal78@gmail.com', '081321123456', '123445'),
+('user satu', 'user34', 'wahyuakmal78@gmail.com', '081321123456', '422341');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
